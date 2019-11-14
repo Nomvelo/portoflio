@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <tile> bootstrap Example</tile>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googeapis.com/ajax/libsjquary.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap"></script>
+    <style>
+        /*Remove the navbar's default margin-bottom and rounded borders */
+        
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+        /*Add agray background color and some padding to the footer*/
+        
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+</body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div clss="navbar-header">
+            <botton type="button" class="navbar-toggle" data-toggle="collapse" data-traget="#mynavbar">
+                <span class="incon-bar"></span>
+                <span class="incon-bar"></span>
+                <span class="incon-bar"></span>
+            </botton>
+
+        </div>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="nav navbar -nar">
+                <li class="active"><a href="index.html"> Home</a></li>
+                <li href="aboutMe.html">aboutMe </a>
+                </li>
+                <li href="mail.html">contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<h2> send e-mail to nomvelomthembu54@gmail.com</h2>
+<form action="mailto:nomvelomthembu54@gmail.com" method="text/plain">
+    Name:<br>
+    <input type="text" name="name"><br> E-mail:
+    <br>
+    <input type="text" name="name"><br> comment:
+    <br>
+    <input type="text" name="comment" size="50"><br><br>
+    <input type="submit" value="send">
+    <input type="reset" value="reset">
+</form>
+
+</body>
+
+</html>
