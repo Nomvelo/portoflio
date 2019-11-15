@@ -2,25 +2,20 @@
 <html lang="en">
 
 <head>
-    <title> bootstrap Example</title>
+    <title>Bootstrap Example</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="with=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googeapis.com/ajax/libsjquary.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <style>
-        /*Remove the navbar's default margin-bottom and rounded borders */
-        
-        .jumbotron {
-            background-color: blue;
-            color: white;
-        }
+        /* Remove the navbar's default margin-bottom and rounded borders */
         
         .navbar {
             margin-bottom: 0;
             border-radius: 0;
         }
-        /*Add agray background color and some padding to the footer*/
+        /* Add a gray background color and some padding to the footer */
         
         footer {
             background-color: #f2f2f2;
@@ -32,58 +27,74 @@
             margin-left: auto;
             margin-right: auto;
         }
+        
+        table,
+        th,
+        td {
+            border: solid black;
+        }
     </style>
 </head>
 
-</body>
+<body>
 
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div clss="navbar-header">
-            <botton type="button" class="navbar-toggle" data-toggle="collapse" data-traget="#mynavbar">
-                <span class="incon-bar"></span>
-                <span class="incon-bar"></span>
-                <span class="incon-bar"></span>
-            </botton>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
 
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="aboutMe.html">About Me</a></li>
+                    <li><a href="e-mail.html">Contact Me</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="nav navbar -nar">
-                <li class="active"><a href="../index.html"> Home</a></li>
-                <li href="../aboutMe.html">aboutMe </a>
-                </li>
-                <li href="../e-mail.html">contact Me </a>
-                </li>
-            </ul>
+    </nav>
 
-        </div>
-    </div>
-</nav>
-<div class="jumbotron">
-    <div class="container text-center">
-        <h1> mysQL work </h1>
-        <tr>
-            <th> Assignment</th>
-            <th> link</th>
-            <th>Date completed</th>
-        </tr>
-        <tr>
-            <td>?...</td>
-            <td>?...</td>
-            <td>?...</td>
-        </tr>
-        <tr>
-            <td>?...</td>
-            <td>?...</td>
-            <td>?...</td>
-        </tr>
-        <tr>
-            <td>?...</td>
-            <td>?...</td>
-            <td>?...</td>
-            <tr>
-            </tr>
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>MySQL Work</h1>
+            <table style="width:100%">
+                <tr>
+                    <th>Assignment</th>
+                    <th>Link</th>
+                    <th>Date Completed</th>
+                </tr>
+                <tr>
+                    <td>?...</td>
+                    <td>?...</td>
+                    <td>?...</td>
+                </tr>
+                <tr>
+                    <td>?...</td>
+                    <td>?...</td>
+                    <td>?...</td>
+                </tr>
+                <tr>
+                    <td>?...</td>
+                    <td>?...</td>
+                    <td>?...</td>
+                </tr>>
             </table>
 
+        </div>
     </div>
-</div>
+
+
+
+
+    </footer>
+
+</body>
+
+</html>
